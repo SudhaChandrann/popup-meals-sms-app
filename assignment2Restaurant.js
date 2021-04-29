@@ -116,7 +116,7 @@ module.exports = class RestaurantOrder extends Order{
     }
     renderForm(){
       // your client id should be kept private
-      const sClientID = 'AaPlog_74nZ7D-2Le94NDAGUvM0lDQ7lV2H54rf9CyTU9TfAUmh8uBbNZZn6Vg_NbPOo69g79lpgucCo'
+      const sClientID = SB_CLIENT_ID;
       return(`
       <!DOCTYPE html>
   
